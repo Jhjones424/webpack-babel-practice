@@ -46,7 +46,7 @@ Copy/paste this code in your newly created file:
     };
 
 
-5) create a folder for your server and create an index.js file for your express routes. Create your express routes including express.static to serve your index.html file. Refer to the index.js file in the server folder if needed. 
+5) create a folder for your server and create an index.js file for your express routes. Create your express routes including express.static middleware to serve your index.html file. Refer to the index.js file in the server folder if needed. 
 
 6) create your index.html and include a script that links to your bundle.js (or whatever file name you decided on)
 This file should be created automatically by webpack once you've run "npm run build" (This is a script we will write ourselves in step 7).
